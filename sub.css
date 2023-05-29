@@ -14,13 +14,13 @@
     border: 1px solid white;
     justify-content: center;
     max-width: fit-content;
-    background-image: url(lion.jpg);
-    background-size: cover;
+    /* background-image: url(lion.jpg); */
+    background-size: (1000px,);
     background-position: center;
     background-repeat: no-repeat;
     font-family: sans-serif;
     
-}
+}    
 
 .mama{
     background: rgba(255,0,0,0.7);
@@ -133,10 +133,11 @@ text-align: center;
         display: flex;
         flex-wrap: wrap;
         /* flex-direction: column;  */
+        
     }
     .children{
         width: calc(70% - 20px);
-        height: 200px;
+        height: 350px;
         margin: 10px;
         background-color: blue;
     }
@@ -145,4 +146,5 @@ text-align: center;
         height: 200px;
         margin: 10px;
     }
+    
 }
