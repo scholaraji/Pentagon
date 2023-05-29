@@ -129,13 +129,20 @@ text-align: center;
     
 }
 @media screen and (min-width: 601px) and (max-width: 1024px) {
-    .mama .papa{
+    .pookie{
         display: flex;
-        flex-direction: column; 
+        flex-wrap: wrap;
+        /* flex-direction: column;  */
     }
     .children{
-        display: block;
-        flex-direction: row;
-        flex-wrap: wrap;
+        width: calc(70% - 20px);
+        height: 200px;
+        margin: 10px;
+        background-color: blue;
+    }
+    .mama .papa {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
     }
 }
