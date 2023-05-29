@@ -128,11 +128,14 @@ text-align: center;
     font-family: sans-serif;
     
 }
-@media screen and (min-width: 760px){
-    .pookie{
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .mama .papa{
         display: flex;
-        flex-direction: column;
-        
-
+        flex-direction: column; 
+    }
+    .children{
+        display: block;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
