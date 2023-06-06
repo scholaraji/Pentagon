@@ -6,9 +6,9 @@
     
 }
 .all{
-    background-color: peachpuff;
+    background-color: palevioletred;
     border: 1px solid black;
-    background-image: url(lion.jpg);
+    text-align: center;
 }
 .learn{
     color: white;
