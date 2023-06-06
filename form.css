@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    
+}
+.all{
+    background-color: peachpuff;
+    border: 1px solid black;
+    background-image: url(lion.jpg);
+}
+.learn{
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+.see{
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+.try{
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    background-color: blueviolet;
+    width: 33%;
+    margin-left: 20rem;
+    margin-bottom: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+    line-height: 1.3rem;
+
+}
+.white{
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 3rem;
+    border: 5px solid white;
+    box-sizing: border-box;
+    width: 40%;
+    border-style: none;
+    margin-left: 20rem;
+    padding-top: 2rem;
+    
+
+}
+.register{
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+.no-bullet{
+    list-style-type: none;
+    line-height: 3.0;
+    
+    
+}
+.no-bullet li::before{
+    content: none;
+}
+
+.button{
+    
+    background-color: greenyellow;
+    border-radius: 0.3rem;
+    padding:0.5rem ;
+    font-size: medium;
+    
+    
+    
+}
+.input{
+    margin-top: 2rem;
+}
+
+
+.h3{
+    color: grey;
+    font-size:small ;
+    padding-top: 2rem;
+}
+.h4{
+    color: red;
+    font-size: small;
+}
+
+#name::placeholder{
+    color: grey;
+    
+}
+input{
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+/* @media screen and (max-width: 760px) { */
+/*  */
+/* .all .register .learn .button .h3 .h4 .input .no-bullet .see .try .white{ */
+    /* width: 50%; */
+/* } */
+/* } */
