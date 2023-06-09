@@ -3,21 +3,29 @@
 
 .bodyd{
     background-color: hsl(0, 100%, 74%);
-    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
     
 }
 .family{
     color: white;
     margin-bottom: 3rem;
+    margin-left: 5rem;
 }
 .h1{
-  color: white; 
-  font-weight: 500; 
+    color: white; 
+  font-weight: 500;
 }
+ .second-body{
+    align-items: center;
+ }  
+
+
 .sibling{
     color: white;
     border: 2px solid hsl(248, 32%, 49%);
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     background-color: hsl(248, 32%, 49%);
     border-radius: 4px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -28,41 +36,29 @@
 .formm{
     background-color: white;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
     margin-left: 20rem;
-
     margin-bottom: 2rem;
-    width: 34%;
+    width: 50%;
 }
 input{
     padding: 1rem;
     margin-bottom: 2rem;
     border-radius: 0.3rem;
-    width: 80%;
+    width: 70%;
+    margin-left: 2rem;
 }
 .subb{
     background-color: greenyellow;
-    width: 90%;
+    width: 80%;
 }
 .link{
     color: red;
 
 }
- @media screen and (max-width: 760px){
+@media screen and max-width(768px) {
     .bodyd{
-        font-size: 14px;
+        display: flex;
+        flex-direction: column;
     }
-    .formm{
-        width: 100%;
-    }
-    .subb{
-        padding: 12px 20px;
-    }
-    .bodyd{
-        display: none;
-    }
-    .input{
-        padding: 10px;
-        margin-bottom: 15px;
-    }
- }
+}
