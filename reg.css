@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+
+.bodyd{
+    background-color: hsl(0, 100%, 74%);
+    text-align: center;
+    
+}
+.family{
+    color: white;
+    margin-bottom: 3rem;
+}
+.h1{
+  color: white; 
+  font-weight: 500; 
+}
+.sibling{
+    color: white;
+    border: 2px solid hsl(248, 32%, 49%);
+    margin-bottom: 2rem;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20rem;
+    width: 33%;
+
+}
+.formm{
+    background-color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-left: 20rem;
+
+    margin-bottom: 2rem;
+    width: 34%;
+}
+input{
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    width: 80%;
+}
+.subb{
+    background-color: greenyellow;
+    width: 90%;
+}
+.link{
+    color: red;
+
+}
+ @media screen and (max-width: 760px){
+    .bodyd{
+        font-size: 14px;
+    }
+    .formm{
+        width: 100%;
+    }
+    .subb{
+        padding: 12px 20px;
+    }
+    .bodyd{
+        display: none;
+    }
+    .input{
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+ }
