@@ -7,11 +7,13 @@
     display: flex;
     flex-direction: row;
     
+    
 }
 .family{
     color: white;
     margin-bottom: 3rem;
     margin-left: 5rem;
+
 }
 .h1{
     color: white; 
@@ -19,18 +21,20 @@
 }
  .second-body{
     align-items: center;
+
  }  
 
 
 .sibling{
     color: white;
     border: 2px solid hsl(248, 32%, 49%);
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     background-color: hsl(248, 32%, 49%);
     border-radius: 4px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 20rem;
     width: 33%;
+    margin-top: 2rem;
 
 }
 .formm{
@@ -56,9 +60,29 @@ input{
     color: red;
 
 }
-@media screen and max-width(768px) {
+@media only screen and (max-width:760px) {
     .bodyd{
         display: flex;
         flex-direction: column;
+        /* width: 100%; */
+        /* justify-content: space-between; */
+    }
+    .family{
+        margin: auto;
+        padding-left: 2rem;
+        
+    }
+    .second-body
+    {
+        text-align: center;
+        margin: auto;
+        
+        /* height: 500px; */
+    }
+    .formm-input{
+        /* width: 300px; */
+    }
+    .subb{
+        /* width: 300px; */
     }
 }
